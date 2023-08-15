@@ -10,7 +10,7 @@ Aksi halde:
   <img src="./SmartSelect_20230814_213247_Chrome.jpg" alt="False">
 </h1>
 
-Kodu Programa(.exe) çevirmek için..
+# Kodu Programa(.exe) çevirmek için..
 
 1. **PyInstaller'ı Yükleme**: İlk olarak, PyInstaller'ı yüklemelisiniz. Komut istemcisini açın ve aşağıdaki komutu kullanarak PyInstaller'ı yükleyin:
    

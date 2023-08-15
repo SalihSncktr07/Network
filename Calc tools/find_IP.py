@@ -24,3 +24,6 @@ print(f"Subnet Maskesi Binary: {binary_subnet_mask}")
 print(f"Ağ Adresi: {network}")
 print(f"Yayın Adresi: {broadcast}")
 print(f"Verilen IP Adresi ve Alt Ağ Maskesi ile Alınabilecek Toplam Üye IP Adresi Sayısı: {ip_count} + 2")
+
+while True:
+    pass

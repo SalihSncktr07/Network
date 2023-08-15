@@ -12,3 +12,6 @@ subnet_mask = "255.255.252.0"
 network, broadcast = calculate_network_broadcast(ip_address, subnet_mask)
 print(f"IP Adresinin Ağı(Network): {network}")
 print(f"IP Adresinin Yayın Adresi(Broadcast): {broadcast}")
+
+while True:
+    pass

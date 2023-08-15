@@ -14,3 +14,6 @@ ip_address = "255.255.252.0"
 
 binary_ip = ip_to_binary(ip_address)
 print(f"IP Adresi Binary: {binary_ip}")
+
+while True:
+    pass

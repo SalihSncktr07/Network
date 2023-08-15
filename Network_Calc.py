@@ -39,16 +39,13 @@ print(f"Subnet Maskesi Binary: {binary_subnet_mask}")
 print(f"Ağ Adresi 1: {network1}")
 print(f"Ağ Adresi 2: {network2}")
 
-if check_same_network(ip1, ip2, subnet_mask):
-    
-    print(f"Bu IP adresleri aynı ağda bulunuyor, root EDILEMEZ")
+if check_same_network(ip1, ip2, subnet_mask):    
+    print(f"Bu IP adresleri aynı ağda bulunuyor, root EDILEMEZ.")
     c = 1
     max_subnet_count = 5
     subnet = find_different_subnet(ip1, network1, max_subnet_count)
-    if subnet:
-        print(f"Farklı Network İçin Önerilen Subnet Maskesi: /{subnet.prefixlen}")
-    else:
-        print("Bu aynı ağda bulunan IP adresleri için farklı networklere root EDILEMEZ.")
+    print(f"Farklı Network İçin Önerilen Subnet Maskesi: /{subnet.prefixlen}")
+
 else:
     print("Bu IP adresleri birbirine root EDILEBILIR.")
     ip_count = calculate_ip_count(subnet_mask)

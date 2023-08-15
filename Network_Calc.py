@@ -41,7 +41,7 @@ print(f"Ağ Adresi 2: {network2}")
 
 if check_same_network(ip1, ip2, subnet_mask):
     
-    print(f"Bu IP adresleri aynı ağda bulunuyor.")
+    print(f"Bu IP adresleri aynı ağda bulunuyor, root EDILEMEZ")
     c = 1
     max_subnet_count = 5
     subnet = find_different_subnet(ip1, network1, max_subnet_count)

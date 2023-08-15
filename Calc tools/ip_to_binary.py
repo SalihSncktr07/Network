@@ -16,4 +16,5 @@ binary_ip = ip_to_binary(ip_address)
 print(f"IP Adresi Binary: {binary_ip}")
 
 while True:
-    pass
+    input("")
+    break

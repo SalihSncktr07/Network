@@ -13,4 +13,5 @@ ip_count = calculate_ip_count(ip_address, subnet_mask)
 print(f"Verilen IP Adresi ve Alt Ağ Maskesi ile Alınabilecek IP Adresi Sayısı: {ip_count}")
 
 while True:
-    pass
+    input("")
+    break

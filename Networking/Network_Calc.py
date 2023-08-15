@@ -52,4 +52,5 @@ else:
     print(f"Verilen Subnet Maskesi ile Alınabilecek Toplam IP Adresi Sayısı: {ip_count} + 2")
 
 while True:
-    pass
+    input("")
+    break

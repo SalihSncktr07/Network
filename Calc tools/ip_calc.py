@@ -14,4 +14,5 @@ print(f"IP Adresinin Ağı(Network): {network}")
 print(f"IP Adresinin Yayın Adresi(Broadcast): {broadcast}")
 
 while True:
-    pass
+    input("")
+    break

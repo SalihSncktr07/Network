@@ -6,8 +6,8 @@ def calculate_network_broadcast(ip, subnet_mask):
     broadcast = network.broadcast_address
     return network, broadcast
 
-ip_address = "192.168.3.0"
-subnet_mask = "255.255.252.0"
+ip_address = input("IP Adresini giriniz: ")
+subnet_mask = input("Subnet Mask giriniz: ")
 
 network, broadcast = calculate_network_broadcast(ip_address, subnet_mask)
 print(f"IP Adresinin Ağı(Network): {network}")

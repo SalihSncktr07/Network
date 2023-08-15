@@ -10,7 +10,7 @@ def ip_to_binary(ip):
     binary_ip = '.'.join(binary_octets)
     return binary_ip
 
-ip_address = "255.255.252.0"
+ip_address = input("IP Adresini giriniz: ")
 
 binary_ip = ip_to_binary(ip_address)
 print(f"IP Adresi Binary: {binary_ip}")

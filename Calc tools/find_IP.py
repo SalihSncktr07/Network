@@ -10,8 +10,8 @@ def calculate_ip_count(subnet_mask):
     ip_count = 2 ** (32 - sum(bin(int(x)).count('1') for x in subnet_mask.split('.')))
     return ip_count - 2
 
-ip_address = "192.168.0.0"
-subnet_mask = "255.255.255.0"
+ip_address = input("IP Adresini giriniz: ")
+subnet_mask = input("Subnet Mask giriniz: ")
 
 binary_ip = '.'.join(format(int(octet), '08b') for octet in ip_address.split('.'))
 binary_subnet_mask = '.'.join(format(int(octet), '08b') for octet in subnet_mask.split('.'))

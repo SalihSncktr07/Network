@@ -53,3 +53,6 @@ else:
     print("Bu IP adresleri birbirine root EDILEBILIR.")
     ip_count = calculate_ip_count(subnet_mask)
     print(f"Verilen Subnet Maskesi ile Alınabilecek Toplam IP Adresi Sayısı: {ip_count} + 2")
+
+while True:
+    pass

@@ -13,7 +13,7 @@ def ip_to_binary(ip):
 ip_address = input("IP Adresini giriniz: ")
 
 binary_ip = ip_to_binary(ip_address)
-print(f"IP Adresi Binary: {binary_ip}")
+print("IP Adresi Binary: {}".format(binary_ip))
 
 while True:
     input("")
